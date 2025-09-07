@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Profile site</title>
         <link href="./css/style.css" rel="stylesheet">
     </head>
@@ -10,9 +11,7 @@
         <!-- header始まり -->
         <header>
             <div class="logo">
-                <a href="index.html">
-                    <h1>Profile</h1>
-                </a>
+                <h1>Profile</h1>
             </div>
             <nav>
                 <ul class="global-nav">
@@ -25,28 +24,41 @@
 
         <main>
             <div id="main-visual">
-                <img src="./img/bicycle1.jpg" alt="bicycle">
+                <img src="./img/mainvisual.jpg" alt="bicycle">
             </div>
 
             <section id="about">
-                <h1 class="icon">About</h1>
-                <img src="./img/about.jpg" alt="KAKERU MIYAICHIプロフィール画像">
-                <p>
-                    <span>KAKERU MIYAICHI</span><br>
-                    テキスト
-                </p>
+                <h2 class="icon">About</h2>
+                <div class="content">
+                    <img src="./img/about.jpg" alt="KAKERU MIYAICHIプロフィール画像">
+                    <div id="text">
+                        <h3>KAKERU MIYAICHI</h3>
+                        <p>テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                </div>
             </section>
+
             <section id="bicycle">
-                <h1 class="icon">Bicycle</h1>
-                <img src="./img/bicycle1.jpg" alt="自転車のサドル画像">
-                <h2 class="title">タイトルタイトル</h2>
-                <p>テキスト</p>
-                <img src="./img/bicycle2.jpg" alt="赤レンガを背景にした自転車">
-                <h2 class="title">タイトルタイトル</h2>
-                <p>テキスト</p>
-                <img src="./img/bicycle3.jpg" alt="緑を背景にした自転車">
-                <h2 class="title">タイトルタイトル</h2>
-                <p>テキストテキスト</p>
+                <h2 class="icon">Bicycle</h2>
+                <ul>
+                    <li>
+                        <img src="./img/bicycle1.jpg" alt="自転車のサドル画像">
+                        <h3 class="title">タイトルタイトル</h3>
+                        <p>テキスト</p>
+                    </li>
+                    <li>
+                        <img src="./img/bicycle2.jpg" alt="赤レンガを背景にした自転車">
+                        <h3 class="title">タイトルタイトル</h3>
+                        <p>テキスト</p>
+                    </li>
+                    <li>
+                        <img src="./img/bicycle3.jpg" alt="緑を背景にした自転車">
+                        <h3 class="title">タイトルタイトル</h3>
+                        <p>テキストテキスト</p>
+                    </li>
+                </ul>
             </section>
         </main>
 
