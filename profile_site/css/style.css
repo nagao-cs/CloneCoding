@@ -27,42 +27,42 @@ a {
 }
 
 header {
-    width: 1280px;
     height: 60px;
-    margin: 0 auto;
+    margin: 10px 230px;
+    display: flex;
 }
 
 .logo {
-    float: left;
-    margin-top: 10px;
-    margin-left: 230px;
     width: 120px;
     height: 40px;
     background-color: #393E46;
+    margin-right: auto;
     opacity: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .logo h1 {
-    margin-top: 20px;
-    margin-left: 251px;
-    width: 77px;
-    height: 19px;
-    /* opacity: 1; */
+    margin-top: 0;
     color: #ffffff;
+    font-size: 20px;
 }
 
 .global-nav {
-    float: right;
     margin-top: 10px;
-    margin-left: 931px;
+    margin-left: 10px;
+    display: flex;
 }
 
 .global-nav li {
-    float: left;
     font-size: 14.4px;
+    width: 20px;
     list-style: none;
-    margin: 0 30px;
-    border-bottom: none;
+    margin-right: 30px;
+}
+
+.global-nav a {
+    text-decoration: none;
 }
 
 footer {
