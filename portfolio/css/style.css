@@ -106,3 +106,19 @@ header {
     text-align: justify;
     padding-left: 4%;
 }
+/* about終わり */
+
+/* works始まり */
+#works ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#works ul li {
+    margin: 10px 15px 10px 15px;
+}
+
+#works ul li img {
+    width: 264px;
+    height: 172px;
+}
