@@ -122,3 +122,26 @@ header {
     width: 264px;
     height: 172px;
 }
+/* works終わり */
+
+/* news始まり */
+#news table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#news th, td {
+    padding: 15px 5px;
+    border-bottom: 1px solid #c0c0c0;
+    border-top: 1px solid #c0c0c0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#news th {
+    width: 20%;
+}
+#news td {
+    width: 80%;    
+}
+/* news終わり */
