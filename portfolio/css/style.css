@@ -62,3 +62,12 @@ header {
 .global-nav li img.icon {
     width: 20px;
 }
+/* header終わり */
+
+/* main visual */
+#main-visual img{
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    object-fit: cover;
+}
