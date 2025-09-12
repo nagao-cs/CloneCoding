@@ -5,6 +5,8 @@ html {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #ffffff;
     color: #24292E;
 }
@@ -145,3 +147,73 @@ header {
     width: 80%;    
 }
 /* news終わり */
+
+/* contact始まり */
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+#contact dl {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact dt,
+#contact dd {
+    display: flex;
+    align-items: center;
+}
+
+#contact dt {
+    width: 20%;
+    padding: 10px 0;
+}
+
+#contact dd {
+    flex: 1;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#contact dd input,
+#contact dd textarea {
+    width: 100%;
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contact dd textarea {
+    height: 10rem;
+}
+
+#contact form button {
+    text-align: center;
+    width: 200px;
+    height: 53px;
+    background-color: #24292E;
+    color: #ffffff;
+    font-size: 15px;
+    display: block;
+    padding: 0 auto;
+}
+
+#contact form button:hover {
+    background-color: #ffffff;
+    color: #24292E;
+    border: 1px solid #24292E;
+}
+/* contact終わり */
+
+/* footer始まり */
+footer {
+    text-align: center;
+    background-color: #24292E;
+    color: #ffffff;
+    padding: 1px 0;
+}
+
+footer p {
+    font-size: 0.5rem;
+}
