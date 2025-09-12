@@ -65,9 +65,44 @@ header {
 /* header終わり */
 
 /* main visual */
+#main-visual {
+    margin-bottom: 80px;
+}
+
 #main-visual img{
     width: 100%;
     max-width: 1920px;
     height: 420px;
     object-fit: cover;
+}
+/* main visual終わり */
+
+/* wrapper始まり */
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+/* wrapper終わり */
+
+/* section title始まり */
+.section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 65px;
+}
+
+/* about始まり */
+#about ul {
+    margin-bottom: 30px;
+}
+
+#about li:first-child {
+    margin-bottom: 30px;
+}
+
+#about p {
+    text-align: justify;
+    padding-left: 4%;
 }
