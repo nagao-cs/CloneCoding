@@ -84,3 +84,43 @@ header .contact {
     height:600px;
     object-fit: cover;
 }
+
+/* wrapper */
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+
+/* section title */
+.section-title {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.section-title #en-title {
+    display: block;
+    font-size: 2rem;
+    letter-spacing: 10.8px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.section-title #jp-title {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: normal;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.section-title::after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    display: block;
+    background-color: #000000;
+}
