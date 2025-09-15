@@ -46,6 +46,10 @@ header {
 
 }
 
+.global-nav {
+    margin-right: auto;
+}
+
 .global-nav ul{
     display: flex;
 }
@@ -65,15 +69,17 @@ header {
 
 header .contact {
     background-color: #000000;
-    width: 200px;
-    height: 100%;
-    margin: 0 0 0 auto;
     color: #ffffff;
-    font-size: 0.8rem;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 0.75rem;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+}
+
+header .contact:hover {
+    background-color: #333333;
 }
 /* header終わり */
 
@@ -87,10 +93,9 @@ header .contact {
 
 /* wrapper */
 .wrapper {
-    max-width: 960px;
-    margin: 0 auto 130px auto;
-    font-size: 0.9rem;
-    padding: 0 4%;
+    max-width: 1032px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 /* section title */
@@ -123,4 +128,46 @@ header .contact {
     height: 1px;
     display: block;
     background-color: #000000;
+}
+/* sectin title終わり */
+
+/* NEWS始まり */
+#news .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+#news .list li:nth-child(-n+2) {
+    border-right: #000000 solid 1px;
+}
+
+#news .list li {
+    width: calc(100%/3);
+    padding: 10px 20px;
+    font-size: 0.85rem;
+}
+
+#news .list li:first-child {
+    padding-left: 0;
+}
+
+#news .list li:last-child {
+    padding-right: 0;
+}
+
+#news .list li time {
+    margin-bottom: 30px;
+}
+
+#news .list li span {
+    background-color: #000000;
+    color: #ffffff;
+    padding: auto 4px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 0.75rem;
+    margin-left: 10px;
+    text-align: center;
 }
